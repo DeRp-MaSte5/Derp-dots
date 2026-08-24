@@ -1,0 +1,23 @@
+bind = $mainMod, Q, exec, $terminal
+
+bind = $mainMod, C, exec, ~/.config/hypr/derpy/binds/kill.sh
+
+bind = $mainMod, M, exit
+
+bind = $mainMod, D, exec, 
+
+bind = $mainMod, E, exec, $fileManager
+
+bind = $mainMod, V, togglefloating,
+
+bind = $mainMod, F, fullscreen
+
+bind = $mainMod, R, exec, $menu
+
+bind = $mainMod, P, pseudo, # dwindle
+
+bind = $mainMod, J, togglesplit, # dwindle
+
+bindm = $mainMod, mouse:272, movewindow
+
+bindm = $mainMod, mouse:273, resizewindow
