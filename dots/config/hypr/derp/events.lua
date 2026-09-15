@@ -6,6 +6,7 @@ hl.on("hyprland.start", function ()
     hl.exec_cmd("steam")
     hl.exec_cmd("cliphist & wl-paste -t text --watch clipman store --no-persist")
     hl.exec_cmd("xwaylandvideobridge")
+    hl.exec_cmd("~/.config/hypr/derp/scripts/wallpaper.sh ~/.config/hypr/derp/wallpapers/Anime/DP-1 ~/.config/hypr/derp/wallpapers/Anime/DP-2 180")
 end)
 
 hl.on("config.reloaded", function ()
